@@ -3,6 +3,11 @@
 The idea here is to simplify the installation process to the point where one-line is all that's needed to install and configure this app. Paste this command onto your terminal, and make sure you're doing this on a fresh server because this may remove some of your files.
 
 
+Centos
+```shell
+bash <(wget -O - https://raw.githubusercontent.com/adhikara13/php-proxy-installer-centos/master/centos.sh)
+```
+
 Ubuntu 20 with nginx + SSL
 ```shell
 bash <(wget -O - https://raw.githubusercontent.com/Athlon1600/php-proxy-installer/master/nginx-ubuntu20.sh)
